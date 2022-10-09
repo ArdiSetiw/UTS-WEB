@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="user.css">
+    <script src="JavaScript.js"></script>
+    <title>Document</title>
+</head>
+<body id="background">
+
+    <!-- Navigasi Bar -->
+    <header id="container">
+        <div onmouseover="judul_over()" onmouseout="judul_out()" id="judul">
+            <p>MOBIL AUTOMOTIVE</p>
+        </div>
+        <div id="nav_bar">
+            <nav class="navbar-custom">
+                <ul>
+                    <li><a href="index.html" class="active-page">Home</a></li>
+                    <li>
+                        <div class="theme-switch-wrapper">                    
+                            <label class="theme-switch" for="checkbox">
+                              <input type="checkbox" id="checkbox" value="check" onclick="theme()"/>                        
+                              <div class="slider round"></div>                    
+                            </label>                
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <section class="home" id="home">
+        <div>
+            <p onmouseover="welc_over()" onmouseout="welc_out()" id="welcome">WELCOME TO<br>MOBIL AUTOMOTIVE</p>
+            <div id="desc"><p>Offering you some of the best cars in the world</p></div>
+            <div id="moreDesc" align="center">
+                <p><b>A Car For All Budgets<br>Cars! Trucks! SUVs!<br>Any Car That You Want We Might Sell It</b></p>
+            </div>
+
+            <div align="center"><p id="show">Show More</p></div>
+
+            <div>
+                <form>
+                    <input id="search" type="text" name="text" placeholder="Find your perfect car" autocomplete="off" >
+                    <input class="search_button" type="submit" name="submit" value="Search">
+                </form>
+            </div>
+            
+            
+            
+        </div> 
+    </section>
+
+    <footer id="foot">
+        Copyright &copy; 2022
+        Designed by Ardi Setyiawan
+    </footer>
+    <script src="JavaScript.js"></script>
+</body>
+</html>
